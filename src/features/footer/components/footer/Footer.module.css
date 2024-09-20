@@ -5,6 +5,7 @@
     background-color: rgb(var(--accent-color-light-rgb));
     color: black;
     font-size: var(--font-size-small);
+    margin-block-start: auto;
 }
 
 .footerList {

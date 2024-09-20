@@ -5,8 +5,8 @@ import { Footer } from "@/features/footer";
 export default function Home() {
     return (
         <div className={styles.main}>
-            <Header />;
-            <Footer />;
+            <Header />
+            <Footer />
         </div>
     );
 }

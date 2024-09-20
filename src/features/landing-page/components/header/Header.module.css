@@ -256,6 +256,7 @@
     }
 
     .titleContainer {
+        width: 50%;
         align-items: flex-start;
         gap: var(--gap-large);
         padding-inline: var(--padding-inline-xlarge);
@@ -269,7 +270,7 @@
     .contactText {
         text-align: left;
         font-size: var(--font-size-large);
-        width: 40ch;
+        width: 100%;
     }
 
     .collaborationImage {
