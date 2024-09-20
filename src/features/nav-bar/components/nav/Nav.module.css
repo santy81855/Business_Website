@@ -1,0 +1,81 @@
+.navContainer {
+    min-height: var(--nav-height);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline: var(--padding-inline-xlarge);
+    z-index: 1;
+    background-color: rgb(var(--background-color-rgb));
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: var(--padding-inline-large);
+    max-width: var(--max-width);
+}
+
+.companyName {
+    font-size: var(--font-size-xlarge);
+    font-weight: bold;
+    color: rgb(--accent-color-light-rgb);
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    z-index: 1;
+    position: relative;
+}
+
+.navLink {
+    font-size: var(--font-size-medium);
+}
+
+.inactive {
+    color: rgb(--text-color-rgb);
+}
+
+.active {
+    color: rgb(var(--accent-color-light-rgb));
+}
+
+.inactive:hover {
+    color: rgb(var(--accent-color-light-rgb));
+}
+
+.navButton {
+    background-color: rgb(var(--accent-color-light-rgb));
+    color: white;
+    padding-inline: var(--padding-inline-large);
+    padding-block: var(--padding-block-medium);
+}
+
+.reportButton {
+    background-color: white;
+    color: #007acc;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    padding-inline: var(--padding-inline-small);
+    padding-block: var(--padding-block-small);
+    font-size: var(--font-size-small);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+@media screen and (max-width: 650px) {
+    .navContainer {
+        padding-block: var(--padding-block-medium);
+    }
+    .textContainer {
+        display: none;
+    }
+}

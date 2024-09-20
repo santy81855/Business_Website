@@ -1,0 +1,11 @@
+.main {
+    height: calc(100% - var(--nav-height));
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
