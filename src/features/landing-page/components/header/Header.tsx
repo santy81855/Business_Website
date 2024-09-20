@@ -45,8 +45,8 @@ const Header = () => {
                 <section className={styles.titleContainer}>
                     <h2 className={styles.contactTitle}>Let&apos;s Meet!</h2>
                     <p className={styles.contactText}>
-                        I'm a paragraph. Click here to add your own text and
-                        edit me. It’s easy. Just click “Edit Text” or double
+                        I&apos;m a paragraph. Click here to add your own text
+                        and edit me. It’s easy. Just click “Edit Text” or double
                         click me to add your own content and make changes to the
                         font.
                     </p>
@@ -67,30 +67,30 @@ const Header = () => {
                 <section className={styles.pitchTitleContainer}>
                     <h2 className={styles.pitchTitle}>Work with Us</h2>
                     <p className={styles.pitchText}>
-                        I'm a paragraph. Click here to add your own text and
-                        edit me. It’s easy. Just click “Edit Text”.
+                        I&apos;m a paragraph. Click here to add your own text
+                        and edit me. It’s easy. Just click “Edit Text”.
                     </p>
                 </section>
                 <section className={styles.pitchItemContainer}>
                     <section className={styles.pitchItem}>
                         <h3 className={styles.pitchItemTitle}>Data Driven</h3>
                         <p className={styles.pitchItemText}>
-                            I'm a paragraph. Click here to add your own text and
-                            edit me. It’s easy.
+                            I&apos;m a paragraph. Click here to add your own
+                            text and edit me. It’s easy.
                         </p>
                     </section>
                     <section className={styles.pitchItem}>
                         <h3 className={styles.pitchItemTitle}>Innovation</h3>
                         <p className={styles.pitchItemText}>
-                            I'm a paragraph. Click here to add your own text and
-                            edit me. It’s easy.
+                            I&apos;m a paragraph. Click here to add your own
+                            text and edit me. It’s easy.
                         </p>
                     </section>
                     <section className={styles.pitchItem}>
                         <h3 className={styles.pitchItemTitle}>Creativity</h3>
                         <p className={styles.pitchItemText}>
-                            I'm a paragraph. Click here to add your own text and
-                            edit me. It’s easy.
+                            I&apos;m a paragraph. Click here to add your own
+                            text and edit me. It’s easy.
                         </p>
                     </section>
                 </section>
