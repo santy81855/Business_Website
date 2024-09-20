@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import { Header } from "@/features/landing-page";
 import { Footer } from "@/features/footer";
