@@ -38,17 +38,6 @@ const Nav = () => {
                             Works
                         </p>
                     </Link>
-                    <Link href="/about">
-                        <p
-                            className={`${styles.navLink} ${
-                                path.includes("about")
-                                    ? styles.active
-                                    : styles.inactive
-                            }`}
-                        >
-                            About
-                        </p>
-                    </Link>
                     <Link href="/contact">
                         <p
                             className={`${styles.navLink} ${
@@ -61,7 +50,7 @@ const Nav = () => {
                         </p>
                     </Link>
                     <Link href="/" className={styles.navButton}>
-                        <p>Lets meet!</p>
+                        <p>Let&apos;s Meet!</p>
                     </Link>
                 </div>
             </section>

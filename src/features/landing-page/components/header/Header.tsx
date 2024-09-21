@@ -51,7 +51,7 @@ const Header = () => {
                         double click me to add your own content and make changes
                         to the font.
                     </p>
-                    <Link href="/" className={styles.ctaButton}>
+                    <Link href="/contact" className={styles.ctaButton}>
                         <p className={styles.contactLink}>Book Now</p>
                     </Link>
                 </section>

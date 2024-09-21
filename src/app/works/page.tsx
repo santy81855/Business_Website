@@ -1,5 +1,12 @@
 import styles from "./page.module.css";
+import { Footer } from "@/features/footer";
+import { Works } from "@/features/works";
 
 export default function Home() {
-    return <div className={styles.page}>hi</div>;
+    return (
+        <main className={styles.main}>
+            <Works />
+            <Footer />
+        </main>
+    );
 }
