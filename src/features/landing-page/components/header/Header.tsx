@@ -46,10 +46,14 @@ const Header = () => {
                 <section className={styles.titleContainer}>
                     <h2 className={styles.contactTitle}>Let&apos;s Meet!</h2>
                     <p className={styles.contactText}>
-                        I&apos;m a paragraph. Click here to add your own text
-                        and edit me. It&apos;s easy. Just click “Edit Text” or
-                        double click me to add your own content and make changes
-                        to the font.
+                        Ready to take your business to the next level? Get in
+                        touch with us today to start building your online
+                        presence. Whether you&apos;re looking for a simple
+                        website or a full digital strategy, we&apos;ll be with
+                        you every step of the way, making the process seamless
+                        and stress-free. Let&apos;s work together to create a
+                        strong online brand that helps your business grow and
+                        succeed. Reach out now, and let&apos;s get started!
                     </p>
                     <Link href="/contact" className={styles.ctaButton}>
                         <p className={styles.contactLink}>Book Now</p>
@@ -68,30 +72,34 @@ const Header = () => {
                 <section className={styles.pitchTitleContainer}>
                     <h2 className={styles.pitchTitle}>Work with Us</h2>
                     <p className={styles.pitchText}>
-                        I&apos;m a paragraph. Click here to add your own text
-                        and edit me. It&apos;s easy. Just click “Edit Text”.
+                        Partner with us for professional, customized websites
+                        that elevate your brand. We provide reliable, ongoing
+                        support to help your business grow.
                     </p>
                 </section>
                 <section className={styles.pitchItemContainer}>
                     <section className={styles.pitchItem}>
-                        <h3 className={styles.pitchItemTitle}>Data Driven</h3>
+                        <h3 className={styles.pitchItemTitle}>Expertise</h3>
                         <p className={styles.pitchItemText}>
-                            I&apos;m a paragraph. Click here to add your own
-                            text and edit me. It&apos;s easy.
+                            Leverage our extensive experience in web design to
+                            create tailored solutions that meet your unique
+                            business needs.
                         </p>
                     </section>
                     <section className={styles.pitchItem}>
-                        <h3 className={styles.pitchItemTitle}>Innovation</h3>
+                        <h3 className={styles.pitchItemTitle}>Reliability</h3>
                         <p className={styles.pitchItemText}>
-                            I&apos;m a paragraph. Click here to add your own
-                            text and edit me. It&apos;s easy.
+                            Count on us for consistent support, timely project
+                            delivery, and long-term website maintenance you can
+                            trust.
                         </p>
                     </section>
                     <section className={styles.pitchItem}>
-                        <h3 className={styles.pitchItemTitle}>Creativity</h3>
+                        <h3 className={styles.pitchItemTitle}>Growth</h3>
                         <p className={styles.pitchItemText}>
-                            I&apos;m a paragraph. Click here to add your own
-                            text and edit me. It&apos;s easy.
+                            We focus on building websites that not only look
+                            great but also drive traffic, leads, and business
+                            growth.
                         </p>
                     </section>
                 </section>

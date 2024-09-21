@@ -49,7 +49,7 @@ const Nav = () => {
                             Contact
                         </p>
                     </Link>
-                    <Link href="/" className={styles.navButton}>
+                    <Link href="/contact" className={styles.navButton}>
                         <p>Let&apos;s Meet!</p>
                     </Link>
                 </div>
