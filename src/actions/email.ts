@@ -1,5 +1,5 @@
-import { GeneralMessageTemplate } from "@/lib/EmailTemplate";
-import { Resend } from "resend";
+// import { GeneralMessageTemplate } from "@/lib/EmailTemplate";
+// import { Resend } from "resend";
 
 export async function send(data: {
     name: string;
@@ -8,7 +8,8 @@ export async function send(data: {
 }) {
     // wait for 3 seconds
     await new Promise((resolve) => setTimeout(resolve, 3000));
-    return { success: "email sesnt" };
+    return { success: "email sesnt" + data.email };
+    /*
     const { email, name, content } = data;
     const resend = new Resend(process.env.RESEND_API_KEY);
     try {
@@ -32,4 +33,5 @@ export async function send(data: {
     } catch (error) {
         return { error: "Error sending emai" };
     }
+    */
 }

@@ -29,7 +29,7 @@ const Contact = () => {
                 "Message sent! We will get back to you as soon as possible."
             );
         } catch (e) {
-            console.log("here2");
+            console.log("error: ", e);
             toast.error("Message failed to send");
         }
         setLoading(false);
