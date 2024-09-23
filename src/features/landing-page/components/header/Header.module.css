@@ -184,7 +184,7 @@
     font-size: var(--font-size-medium);
     color: rgb(var(--text-color-rgb));
     text-align: center;
-    width: 60ch;
+    width: 100%;
 }
 
 .pitchItemContainer {
@@ -279,6 +279,7 @@
 
     .pitchText {
         font-size: var(--font-size-large);
+        width: 60ch;
     }
 
     .pitchItemContainer {
