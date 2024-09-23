@@ -10,16 +10,15 @@ export async function send(data: {
     const { email, name, content } = data;
     const resend = new Resend(process.env.RESEND_API_KEY);
     try {
-        var template;
-        var from = "";
-        template = GeneralMessageTemplate({
+        let from = "";
+        const template = GeneralMessageTemplate({
             name: name,
             email: email,
             content: content,
         });
         from = "Website Inquiry <general-message@spwebmanagement.com>";
 
-        const response = await resend.emails.send({
+        await resend.emails.send({
             from: from,
             to: "communications@spwebmanagement.com",
             subject: "Website Inquiry from " + name,
@@ -29,6 +28,7 @@ export async function send(data: {
         await new Promise((resolve) => setTimeout(resolve, 3000));
         return { success: "Email sent" };
     } catch (error) {
+        console.log(error);
         return { error: "Error sending email" };
     }
 }
