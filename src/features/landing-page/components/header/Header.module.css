@@ -136,8 +136,8 @@
     font-size: var(--font-size-medium);
     color: rgb(var(--text-color-rgb));
     text-align: center;
-    padding-inline: var(--padding-inline-medium);
-    width: 60ch;
+    padding-inline: var(--padding-inline-large);
+    width: 100%;
 }
 
 .ctaButton {
@@ -185,6 +185,7 @@
     color: rgb(var(--text-color-rgb));
     text-align: center;
     width: 100%;
+    padding-inline: var(--padding-inline-large);
 }
 
 .pitchItemContainer {
