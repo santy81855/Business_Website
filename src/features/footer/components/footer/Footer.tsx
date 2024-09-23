@@ -10,9 +10,11 @@ const Footer = ({ style }: FooterProps) => {
     return (
         <footer className={styles.footer} style={style}>
             <div className={styles.footerList}>
-                <p className={styles.footerTitle}>© {currentYear} S & P</p>
+                <p className={styles.footerTitle}>
+                    © {currentYear} S&P Web Management
+                </p>
                 <p>Contact</p>
-                <p>paula.garcia0714@gmail.com</p>
+                <p>communications@spwebmanagement.com</p>
                 <p>770-789-7623</p>
             </div>
         </footer>
