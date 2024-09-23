@@ -137,7 +137,7 @@
     color: rgb(var(--text-color-rgb));
     text-align: center;
     padding-inline: var(--padding-inline-medium);
-    width: 100%;
+    width: 60ch;
 }
 
 .ctaButton {
