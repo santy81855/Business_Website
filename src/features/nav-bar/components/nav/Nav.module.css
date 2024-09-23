@@ -93,6 +93,10 @@
     width: 100%;
 }
 
+.hamLink {
+    width: 100%;
+}
+
 .hamNavLink {
     font-size: var(--font-size-xlarge);
     width: 100%;

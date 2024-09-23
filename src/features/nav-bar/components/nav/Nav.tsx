@@ -29,7 +29,13 @@ const Nav = () => {
                     <Hamburger toggled={isOpen} toggle={setOpen} />
                     {isOpen && (
                         <section className={styles.hamburgerMenu}>
-                            <Link href="/">
+                            <Link
+                                href="/"
+                                className={styles.hamLink}
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
                                 <p
                                     className={`${styles.hamNavLink} ${
                                         path.length === 1
@@ -40,7 +46,13 @@ const Nav = () => {
                                     Home
                                 </p>
                             </Link>
-                            <Link href="/works">
+                            <Link
+                                href="/works"
+                                className={styles.hamLink}
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
                                 <p
                                     className={`${styles.hamNavLink} ${
                                         path.includes("works")
@@ -51,7 +63,13 @@ const Nav = () => {
                                     Works
                                 </p>
                             </Link>
-                            <Link href="/contact">
+                            <Link
+                                href="/contact"
+                                className={styles.hamLink}
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
                                 <p
                                     className={`${styles.hamNavLink} ${
                                         path.includes("contact")
@@ -65,6 +83,9 @@ const Nav = () => {
                             <Link
                                 href="/contact"
                                 className={styles.hamNavButton}
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
                             >
                                 <p>Let&apos;s Meet!</p>
                             </Link>
