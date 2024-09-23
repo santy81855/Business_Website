@@ -15,13 +15,31 @@
     background-color: black;
 }
 
-.title {
-    color: white;
-    font-size: var(--font-size-x3large);
+.ctaTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    z-index: 1;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.title {
+    color: white;
+    font-size: var(--font-size-xlarge);
+    z-index: 1;
+    text-align: center;
+}
+
+.ctaButtonHeader {
+    background-color: rgb(var(--accent-color-light-rgb));
+    color: white;
+    padding-inline: var(--padding-inline-large);
+    padding-block: var(--padding-block-medium);
     z-index: 1;
 }
 
@@ -35,12 +53,21 @@
 .banner {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: var(--gap-medium);
     padding-block: var(--padding-block-medium);
     background-color: rgb(var(--accent-color-light-rgb));
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    gap: var(--gap-large);
+    width: 50%;
 }
 
 .bannerItem {
@@ -109,7 +136,8 @@
     font-size: var(--font-size-medium);
     color: rgb(var(--text-color-rgb));
     text-align: center;
-    width: 60ch;
+    padding-inline: var(--padding-inline-medium);
+    width: 100%;
 }
 
 .ctaButton {
@@ -190,7 +218,33 @@
     font-size: var(--font-size-medium);
     color: rgb(var(--text-color-rgb));
     text-align: center;
-    width: 60ch;
+    width: 30ch;
+}
+
+@media (max-width: 450px) {
+    .bannerItem {
+        font-size: var(--font-size-large);
+    }
+
+    .bannerItem2 {
+        font-size: var(--font-size-large);
+    }
+
+    .bannerItem svg {
+        width: 1em;
+        height: 1em;
+    }
+
+    .bannerItem2 svg {
+        width: 1em;
+        height: 1em;
+    }
+}
+
+@media (min-width: 600px) {
+    .title {
+        font-size: var(--font-size-x3large);
+    }
 }
 
 @media (min-width: 768px) {
@@ -203,13 +257,20 @@
     }
 
     .banner {
+        gap: var(--gap-large);
         transform: translateY(-50%);
         width: 95%;
         flex-direction: row;
         justify-content: space-around;
         padding-inline: var(--padding-inline-large);
-        gap: var(--gap-large);
         z-index: 2;
+    }
+
+    .left,
+    .right {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .pitchTitle {

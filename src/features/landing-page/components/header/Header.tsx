@@ -19,28 +19,38 @@ const Header = () => {
                     quality={50}
                     priority
                 />
-                <h1 className={styles.title}>
-                    We Specialize in Strategy, Design & Marketing
-                </h1>
+
+                <section className={styles.ctaTitleContainer}>
+                    <h1 className={styles.title}>
+                        We Specialize in Strategy, Design & Marketing
+                    </h1>
+                    <Link href="/contact" className={styles.ctaButtonHeader}>
+                        <p className={styles.contactLink}>Book Now</p>
+                    </Link>
+                </section>
                 <section className={styles.overlay}></section>
             </section>
             <section className={styles.banner}>
-                <div className={styles.bannerItem}>
-                    {penIcon}
-                    <p className={styles.itemText}>Branding</p>
-                </div>
-                <div className={styles.bannerItem2}>
-                    {pageIcon}
-                    <p className={styles.itemText}>Content</p>
-                </div>
-                <div className={styles.bannerItem}>
-                    {graphIcon}
-                    <p className={styles.itemText}>Strategy</p>
-                </div>
-                <div className={styles.bannerItem2}>
-                    {creativeIcon}
-                    <p className={styles.itemText}>Creative</p>
-                </div>
+                <section className={styles.left}>
+                    <div className={styles.bannerItem}>
+                        {penIcon}
+                        <p className={styles.itemText}>Branding</p>
+                    </div>
+                    <div className={styles.bannerItem2}>
+                        {pageIcon}
+                        <p className={styles.itemText}>Content</p>
+                    </div>
+                </section>
+                <section className={styles.right}>
+                    <div className={styles.bannerItem}>
+                        {graphIcon}
+                        <p className={styles.itemText}>Strategy</p>
+                    </div>
+                    <div className={styles.bannerItem2}>
+                        {creativeIcon}
+                        <p className={styles.itemText}>Creative</p>
+                    </div>
+                </section>
             </section>
             <section className={styles.contactForm}>
                 <section className={styles.titleContainer}>

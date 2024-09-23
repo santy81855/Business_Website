@@ -88,8 +88,15 @@
     display: none;
 }
 
+.hamburgerMenu {
+    background-color: blue;
+    width: 100%;
+}
+
 .hamNavLink {
     font-size: var(--font-size-xlarge);
+    width: 100%;
+
     color: rgb(var(--text-color-rgb));
 }
 
