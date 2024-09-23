@@ -51,7 +51,7 @@ const Contact = () => {
                 <section className={styles.imageContainer}>
                     <Image
                         className={styles.contactImage}
-                        src="/images/contact-page/contact-photo.jpg"
+                        src="/images/contact-page/contact-photo.png"
                         alt="Contact"
                         width={800}
                         height={400}
