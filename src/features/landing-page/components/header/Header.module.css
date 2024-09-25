@@ -333,6 +333,7 @@
     .contactText {
         text-align: left;
         font-size: var(--font-size-large);
+        padding-inline: 0;
         width: 100%;
     }
 
