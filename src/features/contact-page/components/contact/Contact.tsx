@@ -118,12 +118,6 @@ const Contact = () => {
                         <p className={styles.formLabel}>Phone:</p>
                         <p className={styles.contactText}>770-789-7623</p>
                     </section>
-                    <section className={styles.contactDetail}>
-                        <p className={styles.formLabel}>Email:</p>
-                        <p className={styles.contactText}>
-                            example-email@gmail.com
-                        </p>
-                    </section>
                 </section>
             </section>
         </section>
