@@ -20,7 +20,7 @@ export async function send(data: {
 
         await resend.emails.send({
             from: from,
-            to: "communications@spwebmanagement.com",
+            to: "santyg81855@gmail.com",
             subject: "Website Inquiry from " + name,
             react: template,
             text: "",

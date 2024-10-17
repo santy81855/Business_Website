@@ -14,7 +14,6 @@ const Footer = ({ style }: FooterProps) => {
                     © {currentYear} S&P Web Management
                 </p>
                 <p>Contact</p>
-                <p>communications@spwebmanagement.com</p>
                 <p>770-789-7623</p>
             </div>
         </footer>
